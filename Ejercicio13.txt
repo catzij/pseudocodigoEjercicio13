@@ -1,0 +1,25 @@
+inicio
+	var numero1;
+	var numero2;
+	var suma;
+	var division;
+
+	mientras salir !S
+	  mostrar "ingrese numero1"
+	  leer numero1
+
+	  mostrar "ingrese numero2"
+	  leer numero2
+
+	  suma = numero1 + numero2
+	  si numero2 == 0{
+	  mostrar "no se puede divir por 0"
+	  }
+	  contrario{
+	    division = numero1/numero2
+	  }
+	mostrar "la suma de los dos numeros es "+suma;
+	mostrar "la division de los dos numeros es "+division;
+	fin mientras
+
+fin
